@@ -89,7 +89,7 @@ public class MazeFrame extends JFrame {
 	 * Create the frame.
 	 */
 	public MazeFrame(int rowNumber, int colNumber) {
-		setTitle("Jiang's Maze");
+		setTitle("Maze Game");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(500, 500);
 		setVisible(true);
@@ -107,7 +107,7 @@ public class MazeFrame extends JFrame {
 		panel_1.add(panel_3);
 		panel_3.setLayout(new BorderLayout(0, 0));
 
-		label = new JLabel("Welcome to Jiang's Maze\r\n");
+		label = new JLabel("Welcome to Maze Game.\r\n");
 		label.setFont(new Font("Lucida Handwriting", Font.PLAIN, 16));
 		panel_3.add(label, BorderLayout.NORTH);
 
