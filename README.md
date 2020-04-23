@@ -6,4 +6,5 @@
 另外使用了第三方的jar包使游戏的音乐播放效果更加流畅。
 
 游戏效果图
-![maze-game](media/mazegame1.JPG)
+![maze-game](https://github.com/ruruozhenhao/MazeGame/blob/master/media/mazegame1.JPG)
+![maze-game](https://github.com/ruruozhenhao/MazeGame/blob/master/media/mazegame2.JPG)
