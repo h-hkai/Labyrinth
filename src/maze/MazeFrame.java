@@ -483,7 +483,7 @@ public class MazeFrame extends JFrame {
 		try {
 			MazeFrame mazeFrame = new MazeFrame(11, 11);
 			Toolkit tool = mazeFrame.getToolkit(); // 得到一个Toolkit对象
-			Image myimage = tool.getImage(System.getProperty("user.dir") + "/media//maze.jpg"); // 由tool获取图像
+			Image myimage = tool.getImage(System.getProperty("user.dir") + "/media//maze2.png"); // 由tool获取图像
 			mazeFrame.setIconImage(myimage);
 			mazeFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			mazeFrame.setVisible(true);
