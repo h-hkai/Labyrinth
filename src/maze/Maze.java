@@ -843,7 +843,7 @@ class Maze extends JPanel {
 
 	public Player getPlayer() throws JavaLayerException, FileNotFoundException {
 		
-		File file = new File("media//bgm.mp3");
+		File file = new File("media//bgm2.mp3");
 		BufferedInputStream buffer = new BufferedInputStream(new FileInputStream(file.toString()));
 		player = new Player(buffer);
 		return player;
